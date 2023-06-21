@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="com.automationscripts.AddToCartTest">
+        <methods>
+          <include name="Browser_Setup"/>
+          <include name="Browser_Tear_Down"/>
+          <include name="addToCartTest"/>
+        </methods>
+      </class> <!-- com.automationscripts.AddToCartTest -->
+      <class name="com.automationscripts.LoginTest">
+        <methods>
+          <include name="Browser_Setup"/>
+          <include name="loginTest"/>
+          <include name="Browser_Tear_Down"/>
+        </methods>
+      </class> <!-- com.automationscripts.LoginTest -->
+      <class name="com.automationscripts.RegisterTest">
+        <methods>
+          <include name="registerTest"/>
+          <include name="Browser_Setup"/>
+          <include name="Browser_Tear_Down"/>
+        </methods>
+      </class> <!-- com.automationscripts.RegisterTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

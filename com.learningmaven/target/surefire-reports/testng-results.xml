@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14736" started-at="2023-06-15T16:01:25 IST" finished-at="2023-06-15T16:01:40 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="14736" started-at="2023-06-15T16:01:25 IST" finished-at="2023-06-15T16:01:40 IST">
+      <class name="com.automationscripts.RegisterTest">
+        <test-method status="PASS" signature="registerTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automationscripts.RegisterTest@65e2dbf3]" name="registerTest" duration-ms="7050" started-at="2023-06-15T16:01:33 IST" data-provider="RegisterData" finished-at="2023-06-15T16:01:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rakesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kotian]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rakesh411@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Rakesh@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Rakesh@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+      </class> <!-- com.automationscripts.RegisterTest -->
+      <class name="com.automationscripts.LoginTest">
+        <test-method status="PASS" signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.automationscripts.LoginTest@4b4523f8]" name="loginTest" duration-ms="7658" started-at="2023-06-15T16:01:25 IST" data-provider="LoginData" finished-at="2023-06-15T16:01:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rakesh411@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rakesh@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.automationscripts.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
